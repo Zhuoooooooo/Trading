@@ -24,5 +24,6 @@ def main() -> None:
 
     # 下單
     trade = api.place_order(contract, order)
-    
+
+    print(trade)
     print(trade)
